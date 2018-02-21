@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO.Compression;
+using StarfinderSpellParsing.Properties
 
 namespace StarfinderSpellParsing
 {
