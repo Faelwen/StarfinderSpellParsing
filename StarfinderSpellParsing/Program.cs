@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;
 using System.Xml;
+using CsvHelper;
 
 namespace StarfinderSpellParsing
 {
@@ -9,62 +11,33 @@ namespace StarfinderSpellParsing
     {
         static void Main(string[] args)
         {
-            string spellModuleFile = Directory.GetCurrentDirectory() + "\\Starfinderspells.mod";
+            Console.WriteLine("Start Program");
+            string directory = Directory.GetCurrentDirectory();
+            string spellModuleXML = directory + "\\common.xml";
+            string spellShortDescriptionTSV = directory + "\\SpellShortDescription.tsv";
 
-            Stream spellStream = ProcessSpellArchive(spellModuleFile);
 
-            if (spellStream != null)
+            using (StreamReader spellModuleStream = new StreamReader(spellModuleXML))
+            using (StreamReader spellShortDescriptionStream = new StreamReader(spellShortDescriptionTSV))
             {
-                XmlDocument spellXMLDocument = new XmlDocument();
-                spellXMLDocument.Load(spellStream);
-                spellStream.Close();
+                Console.WriteLine("Files opened");
+
+                CsvReader spellShortDescriptionCSVreader = new CsvReader(spellShortDescriptionStream);
+                IEnumerable<SpellShortDescription> records = spellShortDescriptionCSVreader.GetRecords<SpellShortDescription>();
+
+                XmlDocument spellModuleXmlDocument = new XmlDocument();
+                spellModuleXmlDocument.Load(spellModuleStream);
+
+                spellShortDescriptionCSVreader.Dispose();
             }
 
-            
-            Console.WriteLine("End Program");
+                Console.WriteLine("End Program");
             Console.ReadKey();
 
 
 
         }
 
-
-        static Stream ProcessSpellArchive(string spellModuleFile)
-        {
-            bool isCommonFound = false;
-            Stream moduleXMLStream = null;
-
-            try
-            {
-                using (ZipArchive spellArchive = ZipFile.OpenRead(spellModuleFile))
-                {
-                    Console.WriteLine("Spell module opened");
-                    foreach (ZipArchiveEntry entry in spellArchive.Entries)
-                    {
-                        Console.WriteLine(entry.FullName);
-                        if (entry.FullName == "common.xml")
-                        {
-                            isCommonFound = true;
-                            Console.WriteLine("common.xml file found");
-                            moduleXMLStream = entry.Open();
-                            break;
-                        }
-                    }
-                }
-            }
-            catch (System.IO.FileNotFoundException ex)
-            {
-                Console.WriteLine("Warning: Spell module {0} not found", spellModuleFile);
-                return null;
-            }
-
-            if(!isCommonFound)
-            {
-                Console.WriteLine("Warning: common.xml file not found in spell module");
-                return null;
-            }
-
-            return moduleXMLStream;
-        }
+  
     }
 }
