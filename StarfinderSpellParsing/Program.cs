@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.IO.Compression;
+using System.Xml;
 
 namespace StarfinderSpellParsing
 {
@@ -8,18 +9,19 @@ namespace StarfinderSpellParsing
     {
         static void Main(string[] args)
         {
-            string spellModuleFile = Directory.GetCurrentDirectory() + "\\Starfihnderspells.mod";
+            string spellModuleFile = Directory.GetCurrentDirectory() + "\\Starfinderspells.mod";
 
             Stream spellStream = ProcessSpellArchive(spellModuleFile);
 
             if (spellStream != null)
             {
-                Console.WriteLine(spellStream.ToString());
+                XmlDocument spellXMLDocument = new XmlDocument();
+                spellXMLDocument.Load(spellStream);
                 spellStream.Close();
             }
 
             
-            Console.WriteLine("End Program.");
+            Console.WriteLine("End Program");
             Console.ReadKey();
 
 

@@ -1,0 +1,261 @@
+M0		Daze	Restoration
+M0		Detect Affliction	Determine whether a creature or object has been poisoned, is diseased, is cursed, or is suffering a similar affliction.
+M0		Detect Magic	Detect spells and magic items within 60 feet.
+M0		Fatigue	Touched creature is fatigued.
+M0		Ghost Sound	Create minor illusory sounds.
+M0		Grave Words	Force a corpse to babble.
+M0		Psychokinetic Hand	Telekinetically move an object of 1 bulk or less.
+M0		Stabilize	Cause a dying creature to stabilize.
+M0		Telekinetic Projectile	Telekinetically hurl an object, dealing 1d6 damage to the target and object.
+M0		Telepathic Message	Send a short telepathic message and hear simple telepathic replies.
+M0		Token Spell	Perform simple magical effects.
+M1		Charm Person	Make one humanoid creature believe that it is your ally.
+M1		Command	One creature obeys a select command for 1 round.
+M1		Confusion, Lesser	One living creature is confused for 1 round.
+M1		Detect Radiation	Detect radiation within 120 feet.
+M1		Detect Thoughts	“Listen” to surface thoughts.
+M1		Disguise Self	Change your appearance.
+M1		Fear I	Frighten a single living creature that’s of CR 4 or lower for 1d4 rounds.
+M1		Identify	Gain a +10 bonus to identify items of a magic or technological nature.
+M1		Keen Senses	Target gains low-light vision and a +2 bonus to Perception checks.
+M1		Life Bubble	Encase targeted creatures with a shell of tolerable atmosphere.
+M1		Mind Link	Instantly and telepathically communicate information to a creature.
+M1		Mind Thrust I	Mentally deal 2d10 damage to one target.
+M1		Mystic Cure I	Restore 1d8 + your Wisdom modifier Hit Points to a living creature.
+M1		Reflecting Armor	Sheath of mystical force can reflect damage back on foe.
+M1		Remove Condition, Lesser	Remove one minor harmful condition affecting a creature.
+M1		Share Language	Target understands chosen languages.
+M1		Wisp Ally	Create wisp of energy that shines light and distracts an enemy.
+M2	Y	Augury	Learn whether an action will be good or bad.
+M2		Command Undead	Undead creature obeys your commands.
+M2		Darkvision	Grant ability to see 60 feet in total darkness.
+M2		Daze Monster	Target living creature of CR 5 or lower is dazed.
+M2		Fear II	Frighten multiple creatures of CR 4 or lower for 1 minute.
+M2		Fog Cloud	Create a fog that obscures vision.
+M2		Force Blast	Cone deals 2d6 force damage and bull rushes creatures.
+M2		Hold Person	Paralyze one humanoid.
+M2		Hurl Forcedisk	Disc deals 3d6 force damage to one target then ricochets to other targets, dealing 2d6 force damage.
+M2		Inflict Pain	Wracking pain imposes –2 penalty to ability checks, attack rolls, and skill checks on one target.
+M2		Mind Thrust II	Mentally deal 4d10 damage to one target.
+M2		Mystic Cure II	Restore 3d8 + your Wisdom modifier Hit Points to a living creature.
+M2		Remove Condition	Remove one moderate harmful condition affecting a creature.
+M2		Restoration, Lesser	Dispel magical ability penalty or cure 1d4 ability damage.
+M2		See Invisibility	See invisible creatures or objects.
+M2	Y	Shield Other	You take half of the target’s Hit Point damage.
+M2		Spider Climb	Grant ability to walk on walls and ceilings.
+M2		Status	Monitor condition and position of allies.
+M2		Zone of Truth	Creatures within range can’t lie.
+M3		Bestow Curse	Target takes –4 penalty to attack rolls, saves, and checks or 50% chance of not acting on each of its turns.
+M3		Charm Monster	Make one creature believe it is your ally or one day per level.
+M3		Clairaudience/Clairvoyance	Hear or see at a distance for 1 minute per level.
+M3		Deep Slumber	Put a number of creatures whose CRs total 8 or less to sleep.
+M3		Dispel Magic	Cancel one magical spell or effect.
+M3		Fear III	Targets of CR 8 or lower within a cone are panicked for 1 minute.
+M3		Haste	One creature per level moves and acts faster.
+M3		Hologram Memory	Extract a creature’s memory and replay it as a hologram.
+M3		Irradiate	Flood area with dangerous radiation.
+M3		Mind Thrust III	Mentally deal 7d10 damage to one target.
+M3		Mystic Cure III	Restore 5d8 + your Wisdom modifier Hit Points to a living creature.
+M3		Psychokinetic Strangulation	Concentrate to immobilize target and deal 3d8 damage per round.
+M3		Ray of Exhaustion	Ray makes target exhausted.
+M3		Remove Affliction	Neutralize curses, diseases, infestations, poisons, and other harmful conditions affecting a creature.
+M3		Resistant Armor, Lesser	Grant DR 5/— or energy resistance 5 against two energy types.
+M3		Slow	One creature per level moves and acts slower.
+M3		Speak with Dead	Corpse answers up to six questions.
+M3		Suggestion	Compel a target to follow stated course of action.
+M3		Synaptic Pulse	Stun all creatures within 20 feet for 1 round.
+M3		Tongues	Target can speak and understand any language.
+M4		Animate Dead	Create controlled undead creatures out of target corpses.
+M4		Confusion	Targets behave randomly for 1 round per level.
+M4		Cosmic Eddy	Whirlwind deals 4d6 damage and knocks creatures prone.
+M4		Death Ward	Target gains +4 bonus to saves against death spells, and is immune to negative energy and gaining negative levels.
+M4		Discern Lies	Reveal deliberate falsehoods.
+M4		Dismissal IV	Force a creature to return to its native plane.
+M4	Y	Divination	Gain useful advice for specific proposed actions.
+M4		Enervation	Ray imposes 2 negative levels.
+M4		Fear IV	All targets within a cone are panicked for 1 minute.
+M4		Hold Monster	Paralyze one creature.
+M4		Mind Probe	Potentially access a target creature’s memories and its knowledge.
+M4		Mind Thrust IV	Mentally deal 10d10 damage to and fatigue a single target.
+M4		Mystic Cure IV	Restore 12d8 + your Wisdom modifier Hit Points to a living creature or restore life to a recently slain creature.
+M4		Planar Binding IV	Trap an extraplanar creature of CR 4 or lower until it performs a task.
+M4		Reincarnate	Bring a target dead creature back to life in a random body.
+M4		Remove Radioactivity	Remove ongoing radiation effects from a creature or object.
+M4		Resistant Armor	Grant DR 10/— or energy resistance 10 to three energy types.
+M4	Y	Restoration	Restores ability score drain and negative levels.
+M4		Telepathic Bond	Link allows allies to communicate.
+M5		Break Enchantment	Free creatures from curses, enchantments, and transmutations.
+M5		Call Cosmos	Rain cosmic particles on targets, dealing 4d6 fire damage and 3d6 cold damage.
+M5		Command, Greater	One creature per level obeys select command for 1 round per level.
+M5		Commune With Nature	Learn about terrain for 1 mile per level.
+M5		Contact Other Plane	Ask questions of extraplanar entity.
+M5		Crush Skull	Deal 18d8 damage to living creature’s head.
+M5		Dismissal V	Force extraplanar creatures whose total CR is no greater than your level + 2 to return to their native planes.
+M5		Dispel Magic, Greater	Cancel multiple spells or effects.
+M5		Dominate Person	Control humanoid telepathically.
+M5		Feeblemind	Target’s Intelligence and Charisma scores drop to 1.
+M5		Mind Thrust V	Mentally deal 15d10 damage to and exhaust one target.
+M5		Modify Memory	Change 5 minutes of target’s memories.
+M5		Mystic Cure V	Restore 16d8 + your Wisdom modifier Hit Points to a living creature or restore life to a recently slain creature.
+M5		Mystic Cure, Mass V	Restore 3d8 + your Wisdom modifier Hit Points to one living creature per level.
+M5		Planar Binding V	Trap an extraplanar creature of CR 7 or lower until it performs a task.
+M5		Raise Dead	Restore life to a creature that died no more than 1 day per level ago.
+M5		Remove Condition, Greater	Remove all harmful conditions affecting a creature.
+M5		Resistant Aegis	Grant up to 10 creatures DR 5/— or energy resistance 5 to all energy types.
+M5		Retrocognition	Gain psychic impressions of past events in a certain location.
+M5		Synaptic Pulse, Greater	Stun all creatures within 20 feet for 1d4 rounds.
+M5		Telepathy	Communicate mentally with any creatures within 100 feet.
+M5		Waves of Fatigue	Several targets become fatigued.
+M6		Control Gravity	Alter gravity in an area.
+M6		Control Undead	Undead creatures follow your commands and don’t attack you.
+M6		Enshrining Refuge	Targets can’t attack or be attacked, but can exist comfortably.
+M6		Ethereal Jaunt	You become ethereal for 1 round per level.
+M6		Flesh to Stone	Turn a creature into a statue.
+M6		Gravitational Singularity	Particle with infinite density pulls creatures and objects into it, dealing 12d6 damage each round to those inside.
+M6		Inflict Pain, Mass	Wracking pain imposes –2 penalty to ability checks, attack rolls, and skill checks on one target per level.
+M6		Mind Thrust VI	Mentally deal 17d10 damage to, exhaust, and stun one target.
+M6		Mystic Cure VI	Restore 20d8 + your Wisdom modifier HP to a living creature or restore life to a recently slain creature.
+M6		Mystic Cure, Mass VI	Restore 5d8 + your Wisdom modifier Hit Points to one living creature per level.
+M6		Planar Barrier	Seal an area against all planar travel into or within it.
+M6		Planar Binding VI	Trap an extraplanar creature of CR 10 or lower until it performs a task.
+M6		Plane Shift	As many as eight creatures travel to another plane you choose.
+M6		Psychic Surgery	Cure all Intelligence, Wisdom, and Charisma damage and drain, plus remove other mental afflictions and conditions.
+M6		Regenerate	Grow back target’s severed limbs, restore 12d8 Hit Points, and remove exhaustion and fatigue.
+M6		Resistant Armor, Greater	Grant DR 15/— or energy resistance 15 against four energy types.
+M6		Shadow Walk	Step into a shadowy realm to travel to a destination rapidly.
+M6		Snuff Life	Instantly kill or massively damage one creature per 2 caster levels, depending on targets’ CRs.
+M6		Subjective Reality	You convince yourself one creature or object is an illusion.
+M6		Suggestion, Mass	Compel one target per level to follow stated course of action.
+M6		Telepathic Jaunt	Use your telepathic bond with a creature to teleport to its location.
+M6		True Seeing	Target can see things as they really are.
+M6	Y	Vision	Answer a question about a person, place, or object.
+T0		Dancing Lights	Create and direct up to four lights.
+T0		Daze	Humanoid creature of CR 3 or lower is dazed.
+T0		Detect Affliction	Determine whether a creature or object has been poisoned, is diseased, is cursed, or is suffering a similar affliction.
+T0		Detect Magic	Detect spells and magic items within 60 feet.
+T0		Energy Ray	Ray deals 1d3 acid, cold, electricity, or fire damage.
+T0		Ghost Sound	Create minor illusory sounds.
+T0		Mending	Restore 1d4 Hit Points to an object or construct.
+T0		Psychokinetic Hand	Telekinetically move an object of 1 bulk or less.
+T0		Telepathic Message	Send a short telepathic message and hear simple telepathic replies.
+T0		Token Spell	Perform simple magical effects.
+T0		Transfer Charge	Move charges from one power source to another source of the same type.
+T1		Comprehend Languages	You understand all spoken, signed, and written or tactile languages.
+T1		Detect Radiation	Detect radiation within 120 feet.
+T1		Detect Tech	Detect technological items with charges or that replenish charges within 60 feet.
+T1		Disguise Self	Change your appearance.
+T1		Erase	Remove writings of either magical or mundane nature.
+T1		Flight I	One creature or object per level falls slowly.
+T1		Grease	Make a 10-ft. square or one object slippery.
+T1		Hold Portal	Hold a door shut.
+T1		Holographic Image I	Create a silent hologram of your design.
+T1		Identify	Gain +10 bonus to identify items of a magic or technological nature.
+T1		Jolting Surge	Touch deals 4d6 electricity damage.
+T1		Keen Senses	Target gains low-light vision and a +2 bonus to Perception checks.
+T1		Life Bubble	Encase targeted creatures with a shell of tolerable atmosphere.
+T1		Magic Missile	Two missiles deal 1d4+1 force damage.
+T1		Overheat	Deal 2d8 fire damage to creatures in cone.
+T1		Supercharge Weapon	Touched weapon deals extra damage.
+T1		Unseen Servant	Invisible force obeys your commands.
+T2		Caustic Conversion	Fling magical nanites as a ranged attack that deals 4d4 acid damage to one target, plus 5 additional damage in subsequent rounds.
+T2		Command Undead	Undead creature obeys your commands.
+T2		Darkvision	Grant ability to see 60 feet in total darkness.
+T2		Daze Monster	Target living creature of CR 5 or lower is dazed.
+T2		Flight II	Target moves up and down at your direction.
+T2		Fog Cloud	Create a fog that obscures vision.
+T2		Holographic Image II	Create a hologram with some sound of your design.
+T2		Implant Data	Embed one piece of data per level in a target computer or system.
+T2		Inject Nanobots	Touch deals 4d8 damage to target and causes the confused condition.
+T2		Invisibility	Target is invisible for 1 minute per level or until it attacks.
+T2		Knock	Opens a locked or magically sealed door.
+T2		Logic Bomb	Target computer deals 6d6 energy damage to the first creature that tries and fails to use it.
+T2		Make Whole	Restore 5d6 Hit Points to an object or construct.
+T2		Microbot Assault	Cloud of tiny robots harasses creatures within it.
+T2		Mirror Image	Create decoy duplicates of yourself.
+T2	Y	Recharge	Replenish charges in a battery or item capable of holding charges.
+T2	Y	Security Seal	Magically lock a portal, a container, or a security system.
+T2		See Invisibility	See invisible creatures or objects.
+T2		Spider Climb	Grant ability to walk on walls and ceilings.
+T3		Arcane Sight	Magical sources become visible to you.
+T3		Arcing Surge	Deal 10d6 electricity damage in a 120-foot line.
+T3		Clairaudience/Clairvoyance	Hear or see at a distance for 1 minute per level.
+T3		Discharge	Disrupts or depowers one target technological item or construct.
+T3		Dispel Magic	Cancel one magical spell or effect.
+T3		Displacement	Attacks miss target 50% of the time.
+T3		Entropic Grasp	Touch decays a construct or nonmagical manufactured item once per round per level.
+T3		Explosive Blast	Deal 9d6 fire damage to creatures in a 20-foot radius.
+T3		Flight III	Target flies at a speed of 60 feet.
+T3		Handy Junkbot	Create a temporary robot made of junk to perform Computers, Engineering, Piloting, and Sleight of Hand tasks.
+T3		Haste	One creature per level moves and acts faster.
+T3		Healing Junkbot	Robot made of junk can perform Medicine tasks and drag unconscious creature to safety.
+T3		Holographic Image III	Create a hologram with sound, smell, and thermal effects of your design that lasts as long as you concentrate, plus 3 additional rounds.
+T3		Instant Virus	Inflict technological construct with disease.
+T3		Irradiate	Flood area with dangerous radiation.
+T3	Y	Nondetection	Hide target from divination and surveillance.
+T3		Probability Prediction	Reroll one attack roll, save, or check.
+T3		Resistant Armor, Lesser	Grant DR 5/— or energy resistance 5 against two energy types.
+T3		Slow	One creature per level moves and acts slower.
+T3		Tongues	Target can speak and understand any language.
+T4		Animate Dead	Create controlled undead creatures out of target corpses.
+T4		Arcane Eye	Invisible floating eye moves 30 feet per round and sends you visual information.
+T4		Corrosive Haze	Cloud deals 4d8 acid damage per round, plus 10 additional damage.
+T4		Creation IV	Create one object made of vegetable matter.
+T4		Destruction Protocol	Turn nonhostile technological construct against your foes.
+T4		Dimension Door	Teleport a short distance.
+T4		Dismissal IV	Force a creature to return to its native plane.
+T4		Flight IV	Target flies at a speed of 70 feet.
+T4		Holographic Image IV	Create a hologram with sound, smell, and thermal effects that follows a script determined by you.
+T4		Invisibility, Greater	Target is invisible for 1 round per level, even if it attacks.
+T4		Overload Systems	Target creature has a 50% chance to lose each action.
+T4		Planar Binding IV	Trap an extraplanar creature of CR 4 or lower until it performs a task.
+T4		Remove Radioactivity	Remove ongoing radiation effects from a creature or object.
+T4		Resilient Sphere	Force globe protects but traps one target.
+T4		Resistant Armor	Grant DR 10/— or energy resistance 10 to three energy types.
+T4		Rewire Flesh	Turn target partially into a robot, dealing 3d6 damage per round and reducing speed.
+T4		Soothing Protocol	Calm a target hostile technological construct.
+T4		Wall of Fire	Blazing curtain deals 2d6 fire damage out to 10 feet and 1d6 fire damage out to 20 feet; passing through the wall deals 5d6 fire damage.
+T5		Break Enchantment	Free creatures from curses, enchantments, and transmutations.
+T5		Contact Other Plane	Ask questions of an extraplanar entity, with questionable results.
+T5		Control Machines	Command technological constructs within range telepathically.
+T5		Creation V	Create a single object made of vegetable or mineral matter.
+T5		Dismissal V	Force extraplanar creatures whose total CR is no greater than your level + 2 to return to their native planes.
+T5		Dispel Magic, Greater	Cancel multiple magical spells or effects.
+T5		Flight V	You can fly at a speed of 70 feet and can hustle over long distances.
+T5		Heat Leech	Deal 13d8 cold damage to creatures in a cone.
+T5		Holographic Image V	Create a detailed hologram that is permanent or is triggered by conditions you set.
+T5		Holographic Terrain	Create a large hologram that depicts terrain and structures.
+T5		Mislead	Make yourself invisible and create an illusory double of your likeness.
+T5		Passwall	Create a passage through most walls.
+T5		Planar Binding V	Trap an extraplanar creature of CR 7 or lower until it performs a task.
+T5		Private Sanctum	Prevent anyone from viewing or scrying an area for 24 hours.
+T5		Prying Eyes	Twenty floating eyes scout for you.
+T5		Rapid Repair	Construct or weapon regains 2d8 Hit Points per round for 1 minute.
+T5		Resistant Aegis	Grant up to 10 creatures DR 5/— or energy resistance 5 to all energy types.
+T5		Synapse Overload	Target takes 18d8 damage and is staggered for 1 minute.
+T5		Telekinesis	Move an object, attack creatures, or hurl objects or creatures with your mind.
+T5		Teleport	Instantly teleport as far as 2,000 miles.
+T5		Unwilling Guardian	Charm a target into protecting you during combat.
+T5		Wall of Force	Invisible wall is difficult to destroy.
+T6		Battle Junkbot	Create a temporary robot from random junk, turning it into a deadly combatant.
+T6		Chain Surge	Deal 13d12 electricity damage to primary target and up to 10 secondary targets; one of the primary target’s electrical devices stops functioning for 1 round.
+T6		Control Gravity	Alter gravity in an area.
+T6		Control Undead	Undead creatures follow your commands and don’t attack you.
+T6		Discharge, Greater	Disrupts or depowers multiple technological items or constructs.
+T6		Disintegrate	Ray reduces one creature or object to dust.
+T6		Ethereal Jaunt	You become ethereal for 1 round per level.
+T6		Flight VI	Multiple targets can fly at a speed of 60 feet.
+T6		Holographic Image VI	Illusory double of your likeness can talk and cast spells.
+T6	Y	Interplanetary Teleport	Teleport between planets.
+T6		Invisibility, Mass	Multiple targets are invisible for 1 minute per level or until one target attacks or moves away from other targets affected by spell.
+T6		Planar Barrier	Seal an area against all planar travel into or within it.
+T6		Planar Binding VI	Trap an extraplanar creature of CR 10 or lower until it performs a task.
+T6		Plane Shift	As many as eight creatures travel to another plane of your choice.
+T6		Resistant Armor, Greater	Grant DR 15/— or energy resistance 15 against four energy types.
+T6		Rewire Flesh, Mass	Deal 3d6 damage per round and reducing targets’ speed during that time.
+T6		Shadow Walk	Step into a shadowy realm to travel to a destination rapidly.
+T6		Shadowy Fleet	Illusion of starships deals 3d6 piercing damage and 3d6 fire damage to all creatures in the affected area.
+T6		Sympathetic Vibration	Deal 2d10 damage per round to freestanding structure.
+T6	Y	Terraform	Alter terrain and climate.
+T6		True Seeing	Target can see things as they really are.
+T6		Veil	Change appearance of a group of creatures.
+T6	Y	Wall of Steel	Wall has 45 Hit Points per inch of thickness and hardness 15.
