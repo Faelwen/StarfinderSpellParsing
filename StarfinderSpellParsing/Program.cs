@@ -1,43 +1,59 @@
-﻿using System;
+﻿using CsvHelper;
+using System;
 using System.Collections.Generic;
 using System.IO;
-using System.IO.Compression;
 using System.Xml;
-using CsvHelper;
 
 namespace StarfinderSpellParsing
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
             Console.WriteLine("Start Program");
-            string directory = Directory.GetCurrentDirectory();
-            string spellModuleXML = directory + "\\common.xml";
-            string spellShortDescriptionTSV = directory + "\\SpellShortDescription.tsv";
+            var directory = Directory.GetCurrentDirectory();
+            var spellModuleXML = directory + "\\common.xml";
+            var spellShortDescriptionTSV = directory + "\\SpellShortDescription.tsv";
 
-
-            using (StreamReader spellModuleStream = new StreamReader(spellModuleXML))
-            using (StreamReader spellShortDescriptionStream = new StreamReader(spellShortDescriptionTSV))
+            using (var spellModuleStream = new StreamReader(spellModuleXML))
+            using (var spellShortDescriptionStream = new StreamReader(spellShortDescriptionTSV))
             {
                 Console.WriteLine("Files opened");
 
-                CsvReader spellShortDescriptionCSVreader = new CsvReader(spellShortDescriptionStream);
-                IEnumerable<SpellShortDescription> records = spellShortDescriptionCSVreader.GetRecords<SpellShortDescription>();
+                var spellShortDescriptionCSVreader = new CsvReader(spellShortDescriptionStream);
+                spellShortDescriptionCSVreader.Configuration.Delimiter = "\t";
+                spellShortDescriptionCSVreader.Configuration.HasHeaderRecord = false;
+                var records = spellShortDescriptionCSVreader.GetRecords<SpellShortDescription>();
 
-                XmlDocument spellModuleXmlDocument = new XmlDocument();
+                var spellModuleXmlDocument = new XmlDocument();
                 spellModuleXmlDocument.Load(spellModuleStream);
+
+                Console.WriteLine(GetSpellShortDescriptionRecord("Mind Thrust I", records).Name);
 
                 spellShortDescriptionCSVreader.Dispose();
             }
 
-                Console.WriteLine("End Program");
+            Console.WriteLine("End Program");
             Console.ReadKey();
-
-
-
         }
 
-  
+        private static SpellShortDescription GetSpellShortDescriptionRecord(String spellname, IEnumerable<SpellShortDescription> records)
+        {
+            var isFound = false;
+            var record = new SpellShortDescription();
+
+            foreach (SpellShortDescription row in records)
+            {
+                if (row.Name == spellname)
+                {
+                    isFound = true;
+                    record = row;
+                    break;
+                }
+            }
+
+            if (!isFound) { return null; }
+            return record;
+        }
     }
 }
