@@ -1,6 +1,6 @@
 ﻿using System;
+using System.IO;
 using System.IO.Compression;
-using StarfinderSpellParsing.Properties
 
 namespace StarfinderSpellParsing
 {
@@ -8,8 +8,61 @@ namespace StarfinderSpellParsing
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string spellModuleFile = Directory.GetCurrentDirectory() + "\\Starfihnderspells.mod";
+
+            Stream spellStream = ProcessSpellArchive(spellModuleFile);
+
+            if (spellStream != null)
+            {
+                Console.WriteLine(spellStream.ToString());
+                spellStream.Close();
+            }
+
+            
+            Console.WriteLine("End Program.");
             Console.ReadKey();
+
+
+
+        }
+
+
+        static Stream ProcessSpellArchive(string spellModuleFile)
+        {
+            bool isCommonFound = false;
+            Stream moduleXMLStream = null;
+
+            try
+            {
+                using (ZipArchive spellArchive = ZipFile.OpenRead(spellModuleFile))
+                {
+                    Console.WriteLine("Spell module opened");
+                    foreach (ZipArchiveEntry entry in spellArchive.Entries)
+                    {
+                        Console.WriteLine(entry.FullName);
+                        if (entry.FullName == "common.xml")
+                        {
+                            isCommonFound = true;
+                            Console.WriteLine("common.xml file found");
+                            moduleXMLStream = entry.Open();
+                            break;
+                        }
+                    }
+                }
+            }
+            catch (System.IO.FileNotFoundException ex)
+            {
+                Console.WriteLine("Warning: Spell module {0} not found", spellModuleFile);
+                return null;
+            }
+
+            if(!isCommonFound)
+            {
+                Console.WriteLine("Warning: common.xml file not found in spell module");
+                return null;
+            }
+
+            return moduleXMLStream;
         }
     }
 }
